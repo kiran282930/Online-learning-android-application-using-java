@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jnaanakura">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ELearningApp">
+        <activity
+            android:name="com.example.jnaanakura.user.UserRealDashboard"
+            android:exported="true" />
+        <activity
+            android:name="com.example.jnaanakura.PlayCourse"
+            android:exported="true" />
+        <activity
+            android:name="com.example.jnaanakura.tutor.AddCourse"
+            android:exported="true" />
+        <activity
+            android:name="com.example.jnaanakura.PlayVideo"
+            android:exported="true" />
+        <activity
+            android:name="com.example.jnaanakura.admin.AdminResetPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.jnaanakura.tutor.TutorResetPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.jnaanakura.user.UserResetPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.jnaanakura.admin.AdminDashboard"
+            android:exported="true" />
+        <activity
+            android:name="com.example.jnaanakura.tutor.TutorDashboard"
+            android:exported="true" />
+        <activity
+            android:name="com.example.jnaanakura.user.UserDashboard"
+            android:exported="true" />
+        <activity
+            android:name="com.example.jnaanakura.admin.AdminRegister"
+            android:exported="true" />
+        <activity
+            android:name="com.example.jnaanakura.tutor.TutorRegister"
+            android:exported="true" />
+        <activity
+            android:name="com.example.jnaanakura.user.UserRegister"
+            android:exported="true" />
+        <activity
+            android:name="com.example.jnaanakura.admin.AdminLogin"
+            android:exported="true" />
+        <activity
+            android:name="com.example.jnaanakura.tutor.TutorLogin"
+            android:exported="true" />
+        <activity
+            android:name="com.example.jnaanakura.user.UserLogin"
+            android:exported="true" />
+        <activity
+            android:name="com.example.jnaanakura.VideoActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.jnaanakura.AddVideoActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.jnaanakura.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
